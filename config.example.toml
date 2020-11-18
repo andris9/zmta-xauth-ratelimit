@@ -1,0 +1,7 @@
+# plugins/zmta-xauth-ratelimit.toml
+["modules/zmta-xauth-ratelimit"]
+enabled=["receiver"]
+
+["modules/zmta-xauth-ratelimit".ratelimits]
+minute = 60
+day = 1000
